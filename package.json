@@ -1,0 +1,34 @@
+{
+  "name": "parse-server-qnfileadapter",
+  "version": "0.1.0",
+  "description": "Use QiNiu File Storage with Parse Server",
+  "main": "lib/QNFileAdapter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wsk3201/parse-server-QNFileAdapter"
+  },
+  "dependencies": {
+    "qiniu": "^6.1.9",
+    "babel-polyfill": "^6.5.0",
+    "babel-runtime": "^6.5.0"
+  },
+  "files": [
+    "lib/",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.5.1"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src/ -d lib/"
+  },
+  "license": "BSD",
+  "engines": {
+    "node": ">=4.3"
+  }
+}
