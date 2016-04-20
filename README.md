@@ -3,7 +3,7 @@
 ## Useage
 
 ```
-npm install parse-server-qiniufileadapter
+npm install parse-server-qnfileadapter
 ```
 
 ```
